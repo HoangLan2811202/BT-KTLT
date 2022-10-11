@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-25 02:00:30 CH"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1TSjI1QktBOzIwMjItMDktMjU7MDE6NDY6MzMgQ0g7MjY3NQ=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1TSjI1QktBOzIwMjItMDktMjU7MDI6MDA6MzAgQ0g7MTsyNzcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, S" type="Real" array="False" size=""/>
+            <output expression="&quot;nh&#226;p r&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="S" expression="pi*r*r"/>
+            <output expression="&quot; Di&#7879;n t&#237;ch h&#236;nh tr&#242;n l&#224;: &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
