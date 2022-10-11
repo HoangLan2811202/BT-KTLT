@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-25 02:42:13 CH"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1TSjI1QktBOzIwMjItMDktMjU7MDI6MzQ6MDcgQ0g7MjY3NA=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1TSjI1QktBOzIwMjItMDktMjU7MDI6NDI6MTMgQ0g7MTsyNzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, S" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap do dai canh a &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nhap chieu cao h &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="S" expression="(a*h)/2"/>
+            <output expression="&quot;Dien tich tam giac la: &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+    <function name="htdt" type="Integer" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
